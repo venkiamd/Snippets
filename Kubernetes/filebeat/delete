@@ -1,0 +1,7 @@
+#!/bin/bash
+kubectl --namespace=kube-system delete configmap/filebeat-config
+kubectl --namespace=kube-system delete daemonset.extensions/filebeat
+kubectl --namespace=kube-system delete clusterrolebinding.rbac.authorization.k8s.io/filebeat
+kubectl --namespace=kube-system delete clusterrole.rbac.authorization.k8s.io/filebeat
+kubectl --namespace=kube-system delete serviceaccount/filebeat
+
