@@ -1,0 +1,17 @@
+set nocompatible
+set backspace=indent,eol,start
+
+set t_co=256
+
+syntax enable
+set background=dark
+
+set linespace=16
+set guifont=Monaco:h16
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set cuc
+set nu
